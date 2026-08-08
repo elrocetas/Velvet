@@ -1,0 +1,454 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#090909" />
+  <meta name="description" content="Velvet — Acompañamiento social privado y discreto para cenas, eventos, viajes y ocasiones especiales. Atención exclusiva y personalizada." />
+  <meta name="robots" content="noindex, nofollow" />
+  <title>Velvet — Private Social Companionship</title>
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Velvet — Private Social Companionship" />
+  <meta property="og:description" content="Acompañamiento social elegante, privado y diseñado alrededor de cada ocasión." />
+  <meta property="og:url" content="https://velvet.com" />
+  <meta property="og:locale" content="es_MX" />
+
+  <!-- Favicon inline SVG -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23090909'/%3E%3Cpath d='M5 6 L16 26 L27 6' stroke='%238B0D1B' stroke-width='2.2' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Manrope:wght@200;300;400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Script -->
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <!-- INTRO FULLSCREEN SPLASH CURTAIN -->
+  <div id="intro-splash" role="button" tabindex="0" aria-label="Entrar a Velvet">
+    <div class="splash-glow"></div>
+    <div class="splash-stage">
+      <img src="VelvetLogo1.png" alt="Velvet — Private Social Companionship" class="splash-logo-img" />
+      <div class="splash-sub">PRIVATE SOCIAL COMPANIONSHIP</div>
+      <div class="splash-enter-btn">Entrar a la experiencia</div>
+    </div>
+  </div>
+
+  <!-- NAV -->
+  <nav id="nav" aria-label="Navegación principal">
+    <div class="wrap nav-inner">
+      <a class="brand" href="#inicio" aria-label="Velvet — inicio">
+        <img class="brand-logo" src="VelvetLogo1.png" alt="Velvet — Private Social Companionship" />
+      </a>
+
+      <div class="nav-links" role="navigation">
+        <a href="#experiencia">Experiencia</a>
+        <a href="#ocasiones">Ocasiones</a>
+        <a href="#proceso">Cómo funciona</a>
+        <a href="#discrecion">Discreción</a>
+        <a class="nav-cta"
+          href="https://wa.me/52XXXXXXXXXX?text=Hola%20Velvet.%20Me%20gustaria%20recibir%20informacion%20sobre%20una%20experiencia%20de%20acompanamiento%20privado."
+          target="_blank" rel="noopener noreferrer" id="nav-cta-btn">Atención privada</a>
+      </div>
+
+      <button class="hamburger" id="hamburger" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <div id="mobile-menu" role="dialog" aria-label="Menú de navegación">
+    <a href="#experiencia">Experiencia</a>
+    <a href="#ocasiones">Ocasiones</a>
+    <a href="#proceso">Cómo funciona</a>
+    <a href="#discrecion">Discreción</a>
+    <a class="btn btn-outline-wine mob-cta"
+      href="https://wa.me/52XXXXXXXXXX?text=Hola%20Velvet.%20Me%20gustaria%20recibir%20informacion%20sobre%20una%20experiencia%20de%20acompanamiento%20privado."
+      target="_blank" rel="noopener noreferrer">Hablar con Velvet</a>
+  </div>
+
+  <main>
+
+    <!-- HERO -->
+    <section id="inicio" aria-label="Bienvenida">
+      <div id="hero">
+        <div class="hero-bg" aria-hidden="true">
+          <div class="orb orb-1"></div>
+          <div class="orb orb-3"></div>
+        </div>
+        <div class="wrap hero-stage">
+          <img class="hero-welcome-logo reveal" src="VelvetLogo1.png" alt="Velvet — Private Social Companionship" />
+          <div class="hero-super reveal delay-1">Velvet Private Concierge</div>
+          <h1 class="reveal delay-2">Algunas ocasiones<br>merecen la <em>compañía correcta.</em></h1>
+          <p class="hero-sub reveal delay-3">Una experiencia de acompañamiento social elegante, privada y diseñada alrededor de cada ocasión.</p>
+          <div class="actions reveal delay-4">
+            <a class="btn btn-primary"
+              href="https://wa.me/52XXXXXXXXXX?text=Hola%20Velvet.%20Me%20gustaria%20recibir%20informacion%20sobre%20una%20experiencia%20de%20acompanamiento%20privado."
+              target="_blank" rel="noopener noreferrer" id="hero-cta-primary">
+              Hablar con Velvet
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 17L17 7M17 7H7M17 7V17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+            <a class="btn btn-ghost" href="#experiencia" id="hero-cta-secondary">Descubrir la experiencia</a>
+          </div>
+          <p class="hero-disclaimer reveal delay-4">Atención privada &middot; +18 &middot; Confidencial</p>
+        </div>
+
+        <div class="hero-bg-photo reveal delay-2" aria-hidden="true">
+          <div class="hero-oval-frame">
+            <img src="SinFondo.png" alt="Velvet Editorial" class="hero-editorial-img" />
+            <div class="hero-frame-glow"></div>
+          </div>
+          <div class="hero-oval-vline">PRIVATE SOCIAL COMPANIONSHIP &middot; VELVET</div>
+        </div>
+        <a class="hero-scroll-down reveal delay-4" href="#experiencia" aria-label="Desplazar hacia abajo">
+          <span>Scroll</span>
+          <div class="hero-scroll-line"></div>
+        </a>
+      </div>
+    </section>
+
+    <div class="wrap"><div class="divider"></div></div>
+
+    <!-- EXPERIENCE -->
+    <section id="experiencia" aria-label="La experiencia Velvet">
+      <div class="wrap">
+        <div class="exp-layout">
+          <div class="exp-left reveal">
+            <div class="exp-badge">
+              <span class="exp-badge-dot"></span>
+              The Velvet Experience
+            </div>
+            <h2>Más que compañía,<br><em style="font-style:italic;color:#D4BFC2;">la presencia<br>adecuada.</em></h2>
+          </div>
+          <div class="exp-right">
+            <p class="exp-text reveal">Velvet ofrece una experiencia de acompañamiento social cuidadosamente seleccionada para aquellos momentos en los que la presencia, la conversación y la elegancia hacen la diferencia.</p>
+            <p class="exp-text reveal delay-1">Nuestro concierge entiende el contexto de cada ocasión y trabaja de manera discreta para identificar la compañía más adecuada. Sin catálogos públicos. Sin perfiles expuestos. Solo atención personalizada.</p>
+            <div class="exp-rule reveal delay-2"></div>
+            <div class="exp-stat reveal delay-2">
+              <div class="exp-stat-card">
+                <strong>100%</strong>
+                <span>Conversaciones<br>privadas</span>
+              </div>
+              <div class="exp-stat-card">
+                <strong>24h</strong>
+                <span>Atención<br>personalizada</span>
+              </div>
+              <div class="exp-stat-card">
+                <strong>+18</strong>
+                <span>Servicio<br>exclusivo</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="wrap"><div class="divider"></div></div>
+
+    <!-- ATTRIBUTES SECTION (VANITY HOSTESS INSPIRED) -->
+    <section id="atributos" aria-label="Atributos Velvet">
+      <div class="wrap">
+        <div class="attrs-head reveal">
+          <div class="exp-badge">
+            <span class="exp-badge-dot"></span>
+            Estándar de Excelencia
+          </div>
+          <h2>Cualidades que definen la presencia Velvet.</h2>
+        </div>
+        <div class="attrs-grid reveal">
+          <div class="attr-card">
+            <div class="attr-card-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            </div>
+            <h3>Presencia Sofisticada</h3>
+            <p>Elegancia natural, sentido del estilo y adaptación impecable al código de vestimenta de cada evento.</p>
+          </div>
+          <div class="attr-card">
+            <div class="attr-card-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+            </div>
+            <h3>Conversación & Protocolo</h3>
+            <p>Cultura general, fluidez en la conversación y saber estar en ambientes sociales de alto nivel.</p>
+          </div>
+          <div class="attr-card">
+            <div class="attr-card-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
+            <h3>Discreción Absoluta</h3>
+            <p>Confidencialidad rigurosa desde el primer contacto. Respeto total por la privacidad del cliente.</p>
+          </div>
+          <div class="attr-card">
+            <div class="attr-card-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+            </div>
+            <h3>Perfil Multilingüe</h3>
+            <p>Acompañamiento idóneo para clientes internacionales, reuniones ejecutivas o eventos globales.</p>
+          </div>
+          <div class="attr-card">
+            <div class="attr-card-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+            </div>
+            <h3>Hospitalidad VIP</h3>
+            <p>Experiencia en atención a invitados de honor, recepciones exclusivas y galas formales.</p>
+          </div>
+          <div class="attr-card">
+            <div class="attr-card-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            </div>
+            <h3>Puntualidad & Compromiso</h3>
+            <p>Gestión concierge profesional, cumplimiento puntual de itinerarios y coordinación impecable.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- OCCASIONS -->
+    <section id="ocasiones" aria-label="Ocasiones">
+      <div class="wrap">
+        <div class="occasions-head reveal">
+          <div>
+            <div class="exp-badge">
+              <span class="exp-badge-dot"></span>
+              Servicios
+            </div>
+            <h2>Una compañía para cada ocasión.</h2>
+          </div>
+          <p>Cada solicitud es diferente. Velvet coordina el acompañamiento considerando el tipo de evento, el ambiente esperado y las preferencias del cliente.</p>
+        </div>
+        <div class="occasions-grid reveal">
+          <article class="occasion-card">
+            <div class="occ-top">
+              <span class="occ-num">01</span>
+              <svg class="occ-icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M8 22h8M12 15v7M7 3h10l-1 7a4 4 0 01-8 0L7 3z" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <div class="occ-body">
+              <h3>Elegancia Social</h3>
+              <p>Cenas, celebraciones y encuentros donde cada detalle importa.</p>
+            </div>
+          </article>
+          <article class="occasion-card">
+            <div class="occ-top">
+              <span class="occ-num">02</span>
+              <svg class="occ-icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <div class="occ-body">
+              <h3>Presencia Ejecutiva</h3>
+              <p>Acompañamiento sofisticado para compromisos, reuniones y eventos formales.</p>
+            </div>
+          </article>
+          <article class="occasion-card">
+            <div class="occ-top">
+              <span class="occ-num">03</span>
+              <svg class="occ-icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M2 10s3-3 3-8 5 2 5 2 3-5 8-3-2 8-2 8 5 3 3 8-8 2-8 2-3 5-8 3 2-8 2-8z" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <div class="occ-body">
+              <h3>Cultura &amp; Entretenimiento</h3>
+              <p>Conciertos, gastronomía, exposiciones y experiencias dentro de la ciudad.</p>
+            </div>
+          </article>
+          <article class="occasion-card">
+            <div class="occ-top">
+              <span class="occ-num">04</span>
+              <svg class="occ-icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M12 2a10 10 0 100 20 10 10 0 000-20zM2 12h20M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <div class="occ-body">
+              <h3>Viajes &amp; Ocasiones Especiales</h3>
+              <p>Experiencias que requieren mayor coordinación, disponibilidad y atención personalizada.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRIVATE SELECTION -->
+    <section id="seleccion" aria-label="Selección privada">
+      <div class="wrap">
+        <div class="private-box reveal">
+          <div class="private-box-v" aria-hidden="true">V</div>
+          <div class="private-grid">
+            <div>
+              <div class="eyebrow">Private Selection</div>
+              <h2>No eliges<br>de un catálogo.</h2>
+              <p class="private-copy">Por privacidad y discreción, Velvet no publica perfiles, fotografías ni información personal de sus acompañantes. Cada solicitud es atendida individualmente y las opciones disponibles se comparten exclusivamente durante una conversación privada.</p>
+              <p class="private-sub">La selección considera el tipo de ocasión, fecha, ubicación, estilo de compañía, código de vestimenta y preferencias particulares.</p>
+              <div class="actions" style="margin-top:32px;">
+                <a class="btn btn-primary"
+                  href="https://wa.me/52XXXXXXXXXX?text=Hola%20Velvet.%20Me%20gustaria%20recibir%20informacion%20sobre%20una%20experiencia%20de%20acompanamiento%20privado."
+                  target="_blank" rel="noopener noreferrer" id="private-cta-btn">
+                  Solicitar una selección privada
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 17L17 7M17 7H7M17 7V17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </a>
+              </div>
+            </div>
+            <div class="private-right-quote">"Velvet encuentra la compañía adecuada <span>para tu ocasión."</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="wrap"><div class="divider"></div></div>
+
+    <!-- HOW IT WORKS -->
+    <section id="proceso" aria-label="Cómo funciona">
+      <div class="wrap">
+        <div class="process-head reveal">
+          <div>
+            <div class="eyebrow">El proceso</div>
+            <h2>Simple para ti.<br>Personal en<br>cada detalle.</h2>
+          </div>
+          <p style="font-size:14px;line-height:1.9;color:var(--warm-gray);align-self:end;">Desde el primer mensaje hasta el día del encuentro, Velvet gestiona cada detalle de manera privada y personalizada a través de WhatsApp.</p>
+        </div>
+        <div class="steps-grid">
+          <article class="step-card reveal delay-1">
+            <div class="step-num">01</div>
+            <h3>Cuéntanos la ocasión</h3>
+            <p>El concierge conoce los detalles de tu evento, fecha, ubicación y preferencias.</p>
+          </article>
+          <article class="step-card reveal delay-2">
+            <div class="step-num">02</div>
+            <h3>Selección personalizada</h3>
+            <p>Velvet identifica las opciones que mejor encajan con la experiencia que buscas.</p>
+          </article>
+          <article class="step-card reveal delay-3">
+            <div class="step-num">03</div>
+            <h3>Propuesta privada</h3>
+            <p>Las opciones disponibles se presentan exclusivamente mediante una conversación confidencial.</p>
+          </article>
+          <article class="step-card reveal delay-4">
+            <div class="step-num">04</div>
+            <h3>Coordinación</h3>
+            <p>Los detalles finales se gestionan de forma personalizada mediante WhatsApp.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- DISCRETION -->
+    <section id="discrecion" aria-label="Discreción y privacidad">
+      <div class="disc-glow" aria-hidden="true"></div>
+      <div class="wrap disc-layout">
+        <div class="disc-left reveal">
+          <div class="eyebrow">Discreción</div>
+          <h2>La discreción comienza antes del primer encuentro.</h2>
+          <ul class="disc-list">
+            <li class="disc-item">Velvet no expone personas.</li>
+            <li class="disc-item">Velvet no publica catálogos.</li>
+            <li class="disc-item">Velvet no comparte información privada públicamente.</li>
+            <li class="disc-item">Cada solicitud se gestiona de manera individual.</li>
+          </ul>
+        </div>
+        <div class="reveal delay-2">
+          <div class="disc-big">
+            Privacy<br>
+            is part<br>
+            <span>of the</span><br>
+            experience.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="wrap"><div class="divider"></div></div>
+
+    <!-- PRINCIPLES -->
+    <section id="principios" aria-label="Principios de Velvet">
+      <div class="wrap">
+        <div class="reveal">
+          <div class="eyebrow">Nuestros principios</div>
+        </div>
+        <div class="principles-grid reveal">
+          <div class="principle">
+            <div class="principle-icon">I.</div>
+            <h3>Privacidad</h3>
+            <p>Cada conversación es tratada de manera completamente confidencial. Ninguna información personal es compartida sin consentimiento.</p>
+          </div>
+          <div class="principle">
+            <div class="principle-icon">II.</div>
+            <h3>Respeto</h3>
+            <p>Todas las experiencias se desarrollan bajo consentimiento y respeto mutuo. La dignidad de todas las personas involucradas es innegociable.</p>
+          </div>
+          <div class="principle">
+            <div class="principle-icon">III.</div>
+            <h3>Selección</h3>
+            <p>Cada solicitud recibe atención personalizada. Velvet no opera como catálogo; opera como un concierge comprometido con la calidad.</p>
+          </div>
+        </div>
+        <p class="principles-legal reveal">Servicio exclusivamente para mayores de 18 años.</p>
+      </div>
+    </section>
+
+    <!-- FINAL CTA -->
+    <section id="cta-final" aria-label="Contacto">
+      <div class="cta-glow" aria-hidden="true"></div>
+      <div class="wrap">
+        <div class="cta-inner reveal">
+          <div class="eyebrow">Velvet Private Concierge</div>
+          <h2>Tu solicitud comienza de manera privada.</h2>
+          <p>Cuéntanos acerca de la ocasión y nuestro concierge se encargará del resto.</p>
+          <div class="actions">
+            <a class="btn btn-primary"
+              href="https://wa.me/52XXXXXXXXXX?text=Hola%20Velvet.%20Me%20gustaria%20recibir%20informacion%20sobre%20una%20experiencia%20de%20acompanamiento%20privado."
+              target="_blank" rel="noopener noreferrer" id="final-cta-btn">
+              Hablar con un Concierge
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 17L17 7M17 7H7M17 7V17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+          </div>
+          <p class="cta-note">Respuesta personalizada por WhatsApp.</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer aria-label="Pie de página">
+    <div class="wrap">
+      <div class="footer-top">
+        <div>
+          <img class="footer-logo" src="VelvetLogo1.png" alt="Velvet" />
+        </div>
+        <nav class="footer-links" aria-label="Links del pie de página">
+          <a href="#" id="footer-privacy">Privacidad</a>
+          <a href="#" id="footer-terms">Términos</a>
+          <a href="#" id="footer-conduct">Código de conducta</a>
+          <a href="https://wa.me/52XXXXXXXXXX?text=Hola%20Velvet.%20Me%20gustaria%20recibir%20informacion%20sobre%20una%20experiencia%20de%20acompanamiento%20privado."
+            target="_blank" rel="noopener noreferrer" id="footer-contact">Contacto</a>
+        </nav>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-copy">&copy; 2026 Velvet. Todos los derechos reservados.</p>
+        <p class="footer-legal">Servicio exclusivo para mayores de 18 años.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WHATSAPP FLOAT -->
+  <a class="wa-float"
+    href="https://wa.me/52XXXXXXXXXX?text=Hola%20Velvet.%20Me%20gustaria%20recibir%20informacion%20sobre%20una%20experiencia%20de%20acompanamiento%20privado."
+    target="_blank" rel="noopener noreferrer"
+    aria-label="Hablar con Velvet por WhatsApp" id="wa-float-btn">
+    <div class="wa-icon">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path d="M20.52 3.48A11.8 11.8 0 0 0 12.08 0C5.52 0 .18 5.34.18 11.9c0 2.1.55 4.14 1.6 5.94L.08 24l6.3-1.65a11.9 11.9 0 0 0 5.69 1.45h.01c6.56 0 11.9-5.34 11.9-11.9 0-3.18-1.23-6.17-3.46-8.42ZM12.08 21.8h-.01a9.88 9.88 0 0 1-5.04-1.38l-.36-.22-3.74.98 1-3.64-.24-.37a9.86 9.86 0 0 1-1.51-5.27C2.18 6.44 6.62 2 12.09 2a9.84 9.84 0 0 1 7 2.9 9.82 9.82 0 0 1 2.9 7c0 5.46-4.45 9.9-9.91 9.9Z" fill="#F2EDE5"/>
+        <path d="M17.5 14.4c-.3-.15-1.77-.87-2.04-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.49a9 9 0 0 1-1.66-2.06c-.18-.3-.02-.46.13-.61.14-.14.3-.35.45-.52.15-.18.2-.3.3-.5.1-.2.05-.37-.03-.52-.07-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.49s1.07 2.89 1.22 3.09c.15.2 2.1 3.21 5.1 4.5.71.3 1.27.49 1.7.63.72.23 1.37.2 1.88.12.58-.09 1.77-.73 2.02-1.42.25-.7.25-1.3.18-1.42-.08-.13-.28-.2-.58-.35Z" fill="#F2EDE5"/>
+      </svg>
+    </div>
+    <div class="wa-label">Concierge</div>
+  </a>
+
+</body>
+</html>
