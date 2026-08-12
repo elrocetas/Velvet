@@ -5,4 +5,4 @@ VELVET — POC
    Ejemplo México: 5215512345678
 3. El sitio es estático: puede subirse directamente a Vercel, Netlify, GitHub Pages o cualquier hosting.
 4. Tipografías: Cormorant Garamond + Manrope desde Google Fonts. Si no hay internet, se usan fuentes de respaldo.
-h
+hh
