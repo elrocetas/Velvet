@@ -404,7 +404,7 @@ h1 em {
 .hero-bg-photo {
   position: absolute;
   right: max(20px, 3vw);
-  top: 90px;
+  top: 350px;
   transform: none;
   z-index: 1;
   pointer-events: none;
@@ -413,8 +413,9 @@ h1 em {
 
 .hero-oval-frame {
   position: relative;
-  width: clamp(380px, 35vw, 540px);
-  height: clamp(600px, 78vh, 850px);
+  width: clamp(340px, 32vw, 500px);
+  aspect-ratio: 1033 / 1255;
+  height: auto;
   border-radius: 0;
   overflow: visible;
   transform: none;
@@ -430,6 +431,7 @@ h1 em {
   height: 100%;
   object-fit: contain;
   object-position: center top;
+  display: block;
   transform: none;
   filter: drop-shadow(0 30px 60px rgba(0, 0, 0, .95)) drop-shadow(0 0 50px rgba(139, 13, 27, .35));
 }
@@ -443,11 +445,12 @@ h1 em {
 
 .hero-oval-vline {
   position: absolute;
-  right: -20px;
+  left: 100%;
   top: 50%;
   transform: translateY(-50%) rotate(90deg);
-  font-size: 9px;
-  letter-spacing: .55em;
+  transform-origin: center center;
+  font-size: clamp(7px, 0.75vw, 9px);
+  letter-spacing: .45em;
   text-transform: uppercase;
   color: var(--gold);
   opacity: .5;
@@ -1437,7 +1440,7 @@ footer {
     display: block;
     position: absolute;
     right: -20px;
-    top: 60px;
+    top: 350px;
     bottom: auto;
     transform: none;
     opacity: .35;
@@ -1446,12 +1449,17 @@ footer {
   }
 
   .hero-oval-frame {
-    width: clamp(280px, 45vw, 360px);
-    height: clamp(440px, 60vh, 580px);
+    width: clamp(260px, 45vw, 360px);
+    aspect-ratio: 1033 / 1255;
+    height: auto;
   }
 
   .hero-oval-vline {
-    display: none !important;
+    left: 100%;
+    top: 50%;
+    transform: translateY(-50%) rotate(90deg);
+    font-size: 7px;
+    letter-spacing: .35em;
   }
 
   .exp-layout {
@@ -1549,7 +1557,7 @@ footer {
     display: block;
     position: absolute;
     right: -30px;
-    top: 40px;
+    top: 350px;
     bottom: auto;
     transform: none;
     opacity: .32;
@@ -1558,8 +1566,9 @@ footer {
   }
 
   .hero-oval-frame {
-    width: 250px;
-    height: 400px;
+    width: clamp(200px, 55vw, 280px);
+    aspect-ratio: 1033 / 1255;
+    height: auto;
   }
 
   section {
